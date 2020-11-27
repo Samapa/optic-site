@@ -1,0 +1,51 @@
+:root {
+    --optic-green: #9dc73b;
+    --primary: #ffffff;
+    --invert: #1c1b1b;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+a, p, li, ul, div, input {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: var(--invert);
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: solid 1px var(--primary);
+    height: 30px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.invert-font {
+    color: var(--primary)
+}
+
+.optic-container {
+    padding: 0px 50px;
+}
+
+.optic-title {
+    text-align: center;
+    font-size: 30px;
+    padding: 40px 0px;
+}
+
+
