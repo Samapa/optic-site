@@ -30,25 +30,25 @@ export default {
       banner: [
         {
           category: "call of duty",
-          title: "Optic Gaming Return",
+          title: "Optic Chicago",
           image: "/heros/slide_1_2808x.jpg",
-          description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum  lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
-          url: "#",
-          btntext: 'Learn More'
+          description: "OpTic Gaming return to the Call Of Duty World League. Welcome, OpTic Chicago!",
+          url: "/players",
+          btntext: 'Meet The Team'
         },
         {
-          category: "content",
-          title: "Smooth Competition Season Three",
-          image: "/heros/slide_2_2808x.jpg",
-          description: "lorem ipsum",
-          url: "#",
-          btntext: 'Watch Now'
+          category: "team summertime",
+          title: "Join OpTic",
+          image: "/banners/tst.jpg",
+          description: "OpTic Hitch returns home, and bring OpTic Blake & OpTic Jorge with him. Welcome Team Summertime to the #GreenWall",
+          url: "/teamsummertime",
+          btntext: 'View Their Profiles'
         },
         {
           category: "Merch",
           title: "Founders Edition",
           image: "/heros/slide_3_2808x.jpg",
-          description: "lorem ipsum lorem ipsum lorem ipsumlorem ipsum",
+          description: "Shop now for the 2020 OpTic Founders merchandise. Welcome back to the #GreenWall",
           url: "https://opticgaming.tv/",
           btntext: 'Shop Now'
         }

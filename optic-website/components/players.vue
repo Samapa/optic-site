@@ -1,18 +1,23 @@
 <template>
-  <div>
+  <div class="backgroundf3 flex">
+    <h3 class="optic-title">The Players</h3>
     <div class="optic-players">
-      <div
+      <a
+        class="optic-player-card"
+        :href="players[index].url"
         v-for="(item, index) in players"
         :key="index"
-        class="optic-player-card"
       >
-        <img :src="players[index].img" />
-        <div>
-        <h3>{{ players[index].ign }}</h3>
-        <p class="name">{{ players[index].name }}</p>
+        <div class="player-content">
+          <img :src="players[index].img" />
+          <div class="player-info">
+            <h3>{{ players[index].ign }}</h3>
+            <p class="name">{{ players[index].name }}</p>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
+    <a class="optic-btn" href="/players">View Our Roster</a>
   </div>
 </template>
 <script>
@@ -21,76 +26,111 @@ export default {
     return {
       players: [
         {
-          ign: "BigT",
-          name: "Sick Lad",
-          img:
-            "https://images.blz-contentstack.com/v3/assets/blta7b34f1f894a2422/bltfe87107ccc5c6d66/5e1cb587bfaf010dc685ef46/Chicago_Huntsmen_Envoy_0048_S-350x350.png"
+          ign: "Scump",
+          name: "Seth Amber",
+          img: "/players/scump.png",
+          url: "",
         },
         {
-          ign: "BigT",
-          name: "Sick Lad",
-          img:
-            "https://images.blz-contentstack.com/v3/assets/blta7b34f1f894a2422/bltfe87107ccc5c6d66/5e1cb587bfaf010dc685ef46/Chicago_Huntsmen_Envoy_0048_S-350x350.png"
+          ign: "Formal",
+          name: "Mathhew Piper",
+          img: "/players/formal.png",
+          url: "",
         },
         {
-          ign: "BigT",
-          name: "Sick Lad",
-          img:
-            "https://images.blz-contentstack.com/v3/assets/blta7b34f1f894a2422/bltfe87107ccc5c6d66/5e1cb587bfaf010dc685ef46/Chicago_Huntsmen_Envoy_0048_S-350x350.png"
+          ign: "Dashy",
+          name: "Brandon Otell",
+          img: "/players/dashy.png",
+          url: "",
         },
         {
-          ign: "BigT",
-          name: "Sick Lad",
-          img:
-            "https://images.blz-contentstack.com/v3/assets/blta7b34f1f894a2422/bltfe87107ccc5c6d66/5e1cb587bfaf010dc685ef46/Chicago_Huntsmen_Envoy_0048_S-350x350.png"
+          ign: "Envoy",
+          name: "Dylan Hannon",
+          img: "/players/envoy.png",
+          url: "",
         },
         {
-          ign: "BigT",
-          name: "Sick Lad",
-          img:
-            "https://images.blz-contentstack.com/v3/assets/blta7b34f1f894a2422/bltfe87107ccc5c6d66/5e1cb587bfaf010dc685ef46/Chicago_Huntsmen_Envoy_0048_S-350x350.png"
+          ign: "General",
+          name: "Jordan General",
+          img: "/players/general.png",
+          url: "",
         },
-        {
-          ign: "BigT",
-          name: "Sick Lad",
-          img:
-            "https://images.blz-contentstack.com/v3/assets/blta7b34f1f894a2422/bltfe87107ccc5c6d66/5e1cb587bfaf010dc685ef46/Chicago_Huntsmen_Envoy_0048_S-350x350.png"
-        }
       ],
     };
   },
 };
 </script>
 <style scoped>
+
+
+
 .optic-players {
   display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .optic-player-card {
   display: flex;
-  width: 24%;
+  width: 35%;
   background-color: var(--primary);
   border-right: solid 2px var(--optic-green);
-  flex: 0 0 auto;
+  margin: 15px;
+  transition: ease 0.3s;
+}
+
+.optic-player-card:hover h3 {
+  color: var(--optic-green);
+  transition: ease 0.3s;
+}
+
+.optic-player-card:hover {
+  cursor: pointer;
 }
 
 .optic-player-card .name {
   text-transform: capitalize;
 }
 
-.optic-player-card div {
-    width: 50%;
-    align-self: center;
-    margin-left: 35px;
-    
+.optic-player-card img {
+  height: 150px;
 }
 
-.optic-player-card img {
-    height: 150px;
+.optic-btn {
+  width: 25%;
+  align-self: center;
+  margin: 15px;
+  margin-bottom: 25px;
 }
+
+.player-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.player-info {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-left: 35px;
+  align-self: center;
+}
+
+  @media only screen and (max-width: 420px) { 
+
+    .optic-players  {
+      flex-direction: column;
+    }
+
+    .optic-player-card {
+      width: auto;
+    }
+
+    .optic-btn {
+      width: 60%;
+    }
+
+  }
 
 </style>

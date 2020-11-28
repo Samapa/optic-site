@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="mobile-hidden">
         <div class="video-container">
             <video src="/video/feature.mp4" autoplay muted></video>
         </div>
