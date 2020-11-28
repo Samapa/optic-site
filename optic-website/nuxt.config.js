@@ -1,4 +1,9 @@
 export default {
+
+  target: "static",
+  router: {
+    base: '/optic-livesite/'
+  },
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'OpTic Gaming™ | Together we rise. #GreenWall',
