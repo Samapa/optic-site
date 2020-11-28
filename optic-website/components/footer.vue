@@ -4,7 +4,7 @@
     <div>
       <ul class="optic-subscribe">
         <li>
-          <lable>Subscribe to the #GreenWall</lable>
+          <p>Subscribe to the #GreenWall</p>
           <input type="email" />
           <a href="#" class="invert-font">Become a Member</a>
         </li>

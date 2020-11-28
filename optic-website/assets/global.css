@@ -34,6 +34,10 @@ input:focus {
     outline: none;
 }
 
+.backgroundf3 {
+    background-color: #f3f3f3;
+}
+
 .invert-font {
     color: var(--primary)
 }

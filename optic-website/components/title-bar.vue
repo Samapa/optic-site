@@ -49,7 +49,7 @@ export default {
           title: "Founders Edition",
           image: "/heros/slide_3_2808x.jpg",
           description: "lorem ipsum lorem ipsum lorem ipsumlorem ipsum",
-          url: "#",
+          url: "https://opticgaming.tv/",
           btntext: 'Shop Now'
         }
       ]

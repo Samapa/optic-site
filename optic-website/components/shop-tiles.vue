@@ -3,14 +3,12 @@
     <h3 class="optic-title">Shop</h3>
     <div class="shop-tiles-container">
       <div v-for="(item, index) in shopItem" :key="index">
-        <a :href="shopItem[index].link">
           <div class="shop-tile">
-            <h3>{{ shopItem[index].title }}</h3>
-            <p>{{ shopItem[index].desc }}</p>
-            <img :src="shopItem[index].img" :alt="shopItem[index].alt" />
-            <a class="invert-font" :href="shopItem[index].link">View Item</a>
+            <h3>{{shopItem[index].title}}</h3>
+            <p>{{shopItem[index].desc}}</p>
+            <img :src="shopItem[index].img" :alt="shopItem[index].alt"  />
+            <a :href="shopItem[index].link" target="_blank" class="invert-font">View Item</a>
           </div>
-        </a>
       </div>
     </div>
   </div>
@@ -26,22 +24,22 @@ export default {
           desc: "This is a pre-order. Orders will ship on DECEMBER 1st.",
           img: "/shop/optic-hoodie.jpg",
           alt: "OpTic Founders Hoodie",
-          link: "#",
+          link: "https://opticgaming.tv/products/optic-founders-hoodie"
         },
         {
           title: "OpTic Basic Tee",
           desc: "This is a pre-order. Orders will ship on DECEMBER 1st.",
           img: "/shop/optic-tee.jpg",
           alt: "OpTic Founders Tee",
-          link: "#",
+          link: "https://opticgaming.tv/products/optic-founders-tee"
         },
         {
           title: "OpTic Snap Back",
           desc: "This is a pre-order. Orders will ship on DECEMBER 1st.",
           img: "/shop/optic-hat.jpg",
           alt: "OpTic Founders Hat",
-          link: "#",
-        },
+          link: "https://opticgaming.tv/products/optic-founders-hat"
+        }
       ],
     };
   },
@@ -68,6 +66,12 @@ export default {
   font-weight: bold;
   text-transform: uppercase;
   background-color: var(--invert);
+  transition: ease 0.3s;
+}
+
+.shop-tile a:hover {
+  background-color: var(--optic-green);
+  transition: ease 0.3s;
 }
 
 .shop-tile h3,
