@@ -1,0 +1,21 @@
+{
+  "entry": "server.js",
+  "files": {
+    "pages/contact.js": "pages/contact.js",
+    "pages/index.js": "pages/index.js",
+    "pages/message.js": "pages/message.js",
+    "pages/partners.js": "pages/partners.js",
+    "pages/players.js": "pages/players.js",
+    "pages/teamsummertime.js": "pages/teamsummertime.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "pages/contact.js": "pages/contact.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/message.js": "pages/message.js.map",
+    "pages/partners.js": "pages/partners.js.map",
+    "pages/players.js": "pages/players.js.map",
+    "pages/teamsummertime.js": "pages/teamsummertime.js.map",
+    "server.js": "server.js.map"
+  }
+}

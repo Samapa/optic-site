@@ -386,8 +386,8 @@ export default {
     position: fixed;
     background-color: var(--primary);
     width: 100%;
-    height: 35vh;
-    margin-top: 50px;
+    height: auto;
+    margin: 50px 0px;
     z-index: 1;
     list-style: none;
     text-transform: uppercase;
@@ -395,7 +395,8 @@ export default {
   }
 
   #mobile-nav a {
-    padding-top: 20px;
+    padding: 20px 0px;
+    
   }
 
   .mobile-nav {
@@ -413,7 +414,7 @@ export default {
     fill: var(--invert);
     width: 40px;
     height: 100%;
-    align-self: center;
+    
   }
 
     .hidden {

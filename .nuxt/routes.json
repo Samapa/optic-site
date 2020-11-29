@@ -1,0 +1,44 @@
+[
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/Users/samapa/Documents/GitHub/optic-site/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_65f80dde"
+  },
+  {
+    "name": "message",
+    "path": "/message",
+    "component": "/Users/samapa/Documents/GitHub/optic-site/pages/message.vue",
+    "chunkName": "pages/message",
+    "_name": "_2f7d9e45"
+  },
+  {
+    "name": "partners",
+    "path": "/partners",
+    "component": "/Users/samapa/Documents/GitHub/optic-site/pages/partners.vue",
+    "chunkName": "pages/partners",
+    "_name": "_1a30bf5d"
+  },
+  {
+    "name": "players",
+    "path": "/players",
+    "component": "/Users/samapa/Documents/GitHub/optic-site/pages/players.vue",
+    "chunkName": "pages/players",
+    "_name": "_f46edb20"
+  },
+  {
+    "name": "teamsummertime",
+    "path": "/teamsummertime",
+    "component": "/Users/samapa/Documents/GitHub/optic-site/pages/teamsummertime.vue",
+    "chunkName": "pages/teamsummertime",
+    "_name": "_c5e6556a"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/samapa/Documents/GitHub/optic-site/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_5b39fb10"
+  }
+]
