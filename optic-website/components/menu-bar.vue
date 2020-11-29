@@ -273,7 +273,7 @@
                 </g>
               </g>
             </svg></a>
-<a v-on:click="active = !active"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<a href="#" @click="active = !active"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 24 24" xml:space="preserve">
 
 <path class="st0" d="M4.5,11.3h15c0.3,0,0.5,0.2,0.5,0.5v0.5c0,0.3-0.2,0.5-0.5,0.5h-15c-0.3,0-0.5-0.2-0.5-0.5v-0.5
@@ -409,7 +409,7 @@ export default {
     width: 100%;
   }
 
-  .mobile-nav svg {
+  .mobile-nav a svg {
     fill: var(--invert);
     width: 40px;
     height: 100%;
@@ -563,7 +563,7 @@ export default {
     width: 100%;
   }
 
-  .mobile-nav svg {
+  .mobile-nav a svg {
     fill: var(--invert);
     width: 40px;
     height: 100%;
