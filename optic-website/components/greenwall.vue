@@ -1,7 +1,7 @@
 <template>
   <div class="optic-container flex">
       <h3 class="optic-title">"...It meant everything to me..."</h3>
-        <video src="/video/HD_togetherwestand.mp4" controls autoplay></video>
+        <video src="/optic-livesite/video/HD_togetherwestand.mp4" controls autoplay></video>
         
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia ex
@@ -65,5 +65,11 @@ video {
 video:focus {
     outline: none;
 }
+
+  @media only screen and (max-width: 420px) { 
+    video {
+      width: 100%;
+    }
+  }
 
 </style>

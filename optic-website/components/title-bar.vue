@@ -31,23 +31,23 @@ export default {
         {
           category: "call of duty",
           title: "Optic Chicago",
-          image: "/heros/slide_1_2808x.jpg",
+          image: "/optic-livesite/heros/slide_1_2808x.jpg",
           description: "OpTic Gaming return to the Call Of Duty World League. Welcome, OpTic Chicago!",
-          url: "/players",
+          url: "/optic-livesite/players",
           btntext: 'Meet The Team'
         },
         {
           category: "team summertime",
           title: "Join OpTic",
-          image: "/banners/tst.jpg",
+          image: "/optic-livesite/banners/tst.jpg",
           description: "OpTic Hitch returns home, and bring OpTic Blake & OpTic Jorge with him. Welcome Team Summertime to the #GreenWall",
-          url: "/teamsummertime",
+          url: "/optic-livesite/teamsummertime",
           btntext: 'View Their Profiles'
         },
         {
           category: "Merch",
           title: "Founders Edition",
-          image: "/heros/slide_3_2808x.jpg",
+          image: "/optic-livesite/heros/slide_3_2808x.jpg",
           description: "Shop now for the 2020 OpTic Founders merchandise. Welcome back to the #GreenWall",
           url: "https://opticgaming.tv/",
           btntext: 'Shop Now'

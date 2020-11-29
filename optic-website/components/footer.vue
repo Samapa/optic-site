@@ -17,22 +17,22 @@
           <a href="https://opticgaming.tv/" target="_blank">Shop</a>
         </li>
         <li>
-          <a href="/players">The Team</a>
+          <a href="/optic-livesite/players">The Team</a>
         </li>
         <li>
-          <a href="/teamsummertime">Team Summertime</a>
+          <a href="/optic-livesite/teamsummertime">Team Summertime</a>
         </li>
         <li>
-          <a href="/partners">Partners</a>
+          <a href="/optic-livesite/partners">Partners</a>
         </li>
         <li>
           <a href="http://www.nrg.gg/" target="_blank">NRG</a>
         </li>
         <li>
-          <a href="/contact">Contact Us</a>
+          <a href="/optic-livesite/contact">Contact Us</a>
         </li>
         <li>
-          <a href="/contact">Privacy Policy</a>
+          <a href="/optic-livesite/contact">Privacy Policy</a>
         </li>
       </ul>
     </div>

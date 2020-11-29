@@ -1,7 +1,7 @@
 <template>
     <div class="mobile-hidden">
         <div class="video-container">
-            <video src="/video/feature.mp4" autoplay muted></video>
+            <video src="/optic-livesite/video/feature.mp4" autoplay muted></video>
         </div>
     </div>
 </template>

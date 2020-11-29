@@ -1,8 +1,10 @@
 <template>
     <div>
       <menubar></menubar>
-      <pageheader bannersrc="/banners/tst.jpg" title="Team summertime" image="/logos/tst.jpg"></pageheader>
+      <pageheader bannersrc="/optic-livesite/banners/tst.jpg" title="Team summertime" image="/optic-livesite/logos/tst.jpg"></pageheader>
+      <socialblock namekey="tst"></socialblock>
       <tst></tst>
+      <tstshop namekey="tst"></tstshop>
 
       <sitefooter></sitefooter>
     </div>
@@ -14,11 +16,15 @@ import sitefooter from '~/components/footer.vue'
 import pageheader from '~/components/pageheader.vue'
 import tst from '~/components/teamsummertime.vue'
 import sponsors from '~/components/sponsors.vue'
+import socialblock from '~/components/socialblock.vue'
+import tstshop from '~/components/tstshop.vue'
 
 export default {
      components: {
     menubar,
     pageheader,
+    socialblock,
+    tstshop,
     sponsors,
     tst,
     sitefooter

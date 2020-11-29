@@ -1,6 +1,7 @@
 <template>
   <div class="backgroundf3 flex">
     <h3 class="optic-title">Meet team summertime</h3>
+    
     <div class="optic-tst">
       <div class="optic-tst-card" v-for="(item, index) in tst" :key="index">
         <div class="tst-content">
@@ -20,7 +21,7 @@
         </div>
       </div>
     </div>
-    <a class="tst-btn" href="/teamsummertime">Meet TST</a>
+    <a class="tst-btn" href="/optic-livesite/teamsummertime">Meet TST</a>
   </div>
 </template>
 <script>
@@ -31,21 +32,21 @@ export default {
         {
           ign: "Hitch",
           name: "Davis Edwards",
-          img: "/tst/hitch.webp",
+          img: "/optic-livesite/tst/hitch.webp",
           twitter: "https://twitter.com/hitchariide",
           insta: "https://www.instagram.com/hitchariide/"
         },
         {
           ign: "Blake",
           name: "Blake Cissel",
-          img: "/tst/blake.jpg",
+          img: "/optic-livesite/tst/blake.jpg",
           twitter: "https://twitter.com/blakecissel",
           insta: "https://www.instagram.com/blakecissel/"
         },
         {
           ign: "Jorge",
           name: "Jorge Estrada",
-          img: "/tst/jorge.jpeg",
+          img: "/optic-livesite/tst/jorge.jpeg",
           twitter: "https://twitter.com/JorgeSummertime",
           insta: "https://www.instagram.com/JorgeSummertime/"
         }
@@ -55,6 +56,7 @@ export default {
 };
 </script>
 <style scoped>
+
 .optic-socials {
   list-style: none;
   flex-direction: row;

@@ -1,7 +1,7 @@
 <template>
     <div>
       <menubar></menubar>
-      <pageheader bannersrc="/banners/contact.jpg" title="Get in touch" image=""></pageheader>
+      <pageheader bannersrc="/optic-livesite/banners/contact.jpg" title="Get in touch" image=""></pageheader>
       <contactform></contactform>
       <sitefooter></sitefooter>
     </div>

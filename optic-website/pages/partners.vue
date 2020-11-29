@@ -1,7 +1,7 @@
 <template>
     <div>
       <menubar></menubar>
-      <pageheader bannersrc="/banners/winning.jpg" title="Partners" image=""></pageheader>
+      <pageheader bannersrc="/optic-livesite/banners/winning.jpg" title="Partners" image=""></pageheader>
       <sponsors></sponsors>
       <sitefooter></sitefooter>
     </div>

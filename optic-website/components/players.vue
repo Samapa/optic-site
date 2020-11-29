@@ -17,7 +17,7 @@
         </div>
       </a>
     </div>
-    <a class="optic-btn" href="/players">View Our Roster</a>
+    <a class="optic-btn" href="/optic-livesite/players">View Our Roster</a>
   </div>
 </template>
 <script>
@@ -28,31 +28,31 @@ export default {
         {
           ign: "Scump",
           name: "Seth Amber",
-          img: "/players/scump.png",
+          img: "/optic-livesite/players/scump.png",
           url: "",
         },
         {
           ign: "Formal",
           name: "Mathhew Piper",
-          img: "/players/formal.png",
+          img: "/optic-livesite/players/formal.png",
           url: "",
         },
         {
           ign: "Dashy",
           name: "Brandon Otell",
-          img: "/players/dashy.png",
+          img: "/optic-livesite/players/dashy.png",
           url: "",
         },
         {
           ign: "Envoy",
           name: "Dylan Hannon",
-          img: "/players/envoy.png",
+          img: "/optic-livesite/players/envoy.png",
           url: "",
         },
         {
           ign: "General",
           name: "Jordan General",
-          img: "/players/general.png",
+          img: "/optic-livesite/players/general.png",
           url: "",
         },
       ],

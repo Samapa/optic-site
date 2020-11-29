@@ -27,43 +27,43 @@ export default {
         {
           name: "U.S.Army",
           desc: "The United States Army is the land service branch of the United States Armed Forces.",
-          img: "/sponsors/army.png",
+          img: "/optic-livesite/sponsors/army.png",
           url: "https://www.army.mil/",
         },
         {
           name: "Crep Project",
           desc: "Market innovators in the shoe care industry and providers of footwear cleaning products and accessories for everyone.",
-          img: "/sponsors/crep.jpeg",
+          img: "/optic-livesite/sponsors/crep.jpeg",
           url: "https://www.crepprotect.com/",
         },
         {
           name: "Metro by T-Mobile",
           desc: "Game, stream, and share on the 5G network that covers more people than anyone else — at no extra charge.",
-          img: "/sponsors/tmobile.png",
+          img: "/optic-livesite/sponsors/tmobile.png",
           url: "https://www.metrobyt-mobile.com/",
         },
         {
           name: "Turtle Beach",
           desc: "Turtle Beach delivers a wide selection of industry leading, award-winning gaming headsets.",
-          img: "/sponsors/turtlebeach.png",
+          img: "/optic-livesite/sponsors/turtlebeach.png",
           url: "https://turtlebeach.com",
         },
         {
           name: "Mountain Due Gamefuel",
           desc: "MTN DEW® Game Fuel® Zero. Charged Watermelon Shock and Charged Raspberry Lemonade. Buy Now.",
-          img: "/sponsors/gamefuel.png",
+          img: "/optic-livesite/sponsors/gamefuel.png",
           url: "https://www.gamefuel.com/",
         },
         {
           name: "Popeyes Louisiana Kitchen",
           desc: "Get access to exclusive coupons. Discover our menu and order delivery or pick up from a Popeyes near you.",
-          img: "/sponsors/popeyes.png",
+          img: "/optic-livesite/sponsors/popeyes.png",
           url: "https://www.popeyes.com/",
         },
         {
           name: "ZIPPO Heatbank",
           desc: "The HeatBank® 9s Plus is a high tech solution for low temperatures. ",
-          img: "/sponsors/zippo.png",
+          img: "/optic-livesite/sponsors/zippo.png",
           url: "https://www.zippo.com/products/heatbank-9s-plus-rechargeable-hand-warmer",
         },
       ],
@@ -72,6 +72,7 @@ export default {
 };
 </script>
 <style scoped>
+
 .optic-sponsors {
   display: flex;
   flex-wrap: wrap;
@@ -127,4 +128,25 @@ export default {
   margin-left: 50px;
   align-self: center;
 }
+
+  @media only screen and (max-width: 420px) { 
+
+    .sponsor-content {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .optic-sponsor-card img {
+      padding: 0px;
+  
+    }
+
+    .sponsor-info {
+      margin-left: 0px;
+      align-self: unset;
+      padding: 20px;
+    }
+  }
 </style>

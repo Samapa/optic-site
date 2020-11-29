@@ -12,7 +12,11 @@
     <div class="optic-container">
       <h3 class="optic-title">Shop</h3>
       <div class="shop-tiles-container">
-        <div v-for="(item, index) in shopItem" :key="index">
+        <div
+          class="shop-tile-40"
+          v-for="(item, index) in shopItem"
+          :key="index"
+        >
           <div class="shop-tile">
             <h3>{{ shopItem[index].title }}</h3>
             <p>{{ shopItem[index].desc }}</p>
@@ -35,21 +39,21 @@ export default {
         {
           title: "OpTic Hoodie",
           desc: "This is a pre-order. Orders will ship on DECEMBER 1st.",
-          img: "/shop/optic-hoodie.jpg",
+          img: "/optic-livesite/shop/optic-hoodie.jpg",
           alt: "OpTic Founders Hoodie",
           link: "https://opticgaming.tv/products/optic-founders-hoodie",
         },
         {
           title: "OpTic Basic Tee",
           desc: "This is a pre-order. Orders will ship on DECEMBER 1st.",
-          img: "/shop/optic-tee.jpg",
+          img: "/optic-livesite/shop/optic-tee.jpg",
           alt: "OpTic Founders Tee",
           link: "https://opticgaming.tv/products/optic-founders-tee",
         },
         {
           title: "OpTic Snap Back",
           desc: "This is a pre-order. Orders will ship on DECEMBER 1st.",
-          img: "/shop/optic-hat.jpg",
+          img: "/optic-livesite/shop/optic-hat.jpg",
           alt: "OpTic Founders Hat",
           link: "https://opticgaming.tv/products/optic-founders-hat",
         },
@@ -67,6 +71,10 @@ export default {
   flex-wrap: wrap;
 }
 
+.shop-tile-40 {
+  width: 45%;
+}
+
 .optic-anoucement {
   background-color: var(--invert);
 }
@@ -77,6 +85,10 @@ export default {
   justify-content: space-evenly;
   align-items: center;
   height: 30px;
+}
+
+img {
+  width: 100%;
 }
 
 .optic-anoucement ul li h3 {
@@ -95,14 +107,20 @@ img {
   padding: 10px 0px;
 }
 
-  @media only screen and (max-width: 420px) { 
-    .shop-tile p, a, img {
+@media only screen and (max-width: 420px) {
+  .shop-tile p,
+  a,
+  img {
     padding: 10px 0px;
     width: 100%;
-}
-
-.optic-anoucement {
-  text-align: center;
-}
   }
+
+  .shop-tile-40 {
+    width: 100%;
+  }
+
+  .optic-anoucement {
+    text-align: center;
+  }
+}
 </style>

@@ -1,7 +1,7 @@
 <template>
     <div>
       <menubar></menubar>
-      <pageheader bannersrc="/banners/togetherwestand.jpeg" title="Together we stand. #Greenwall" image=""></pageheader>
+      <pageheader bannersrc="/optic-livesite/banners/togetherwestand.jpeg" title="Together we stand. #Greenwall" image=""></pageheader>
       <greenwall></greenwall>
       <sitefooter></sitefooter>
     </div>
