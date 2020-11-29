@@ -397,12 +397,14 @@ export default {
   #mobile-nav a {
     padding: 20px 0px;
     
+    
   }
 
   .mobile-nav {
     height: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: var(--primary);
     border-bottom: solid 2px var(--optic-green);
     position: fixed;
@@ -413,6 +415,7 @@ export default {
   .mobile-nav a svg {
     fill: var(--invert);
     width: 40px;
+    align-self: center;
     height: 100%;
     
   }
