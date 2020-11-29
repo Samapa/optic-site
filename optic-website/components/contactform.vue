@@ -53,7 +53,7 @@ label {
     fill: var(--optic-green)
 }
 
-  @media only screen and (max-width: 420px) { 
+  @media only screen and (max-width: 482px) { 
 
     .form-container {
         padding: 0px 50px;

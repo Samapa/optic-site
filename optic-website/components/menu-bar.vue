@@ -366,7 +366,7 @@ export default {
 
 <style scoped>
 
-@media only screen and (max-width: 420px) {
+  @media only screen and (max-width: 482px) { 
   #desktop-nav {
     display: none;
   }

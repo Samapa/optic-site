@@ -66,7 +66,7 @@ video:focus {
     outline: none;
 }
 
-  @media only screen and (max-width: 420px) { 
+  @media only screen and (max-width: 482px) { 
     video {
       width: 100%;
     }

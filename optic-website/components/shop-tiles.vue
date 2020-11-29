@@ -107,7 +107,7 @@ img {
   padding: 10px 0px;
 }
 
-@media only screen and (max-width: 420px) {
+  @media only screen and (max-width: 482px) { 
   .shop-tile p,
   a,
   img {

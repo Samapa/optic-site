@@ -59,7 +59,7 @@ export default {
 </script>
 
 <style scoped>
-@media only screen and (max-width: 420px) {
+  @media only screen and (max-width: 482px) { 
 
 .slide-container {
     display: flex;
