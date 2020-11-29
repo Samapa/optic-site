@@ -1,0 +1,86 @@
+{
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "LazyLogo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "Contactform": {
+    "description": "Auto imported from components/contactform.vue"
+  },
+  "LazyContactform": {
+    "description": "Auto imported from components/contactform.vue"
+  },
+  "FeatureVideo": {
+    "description": "Auto imported from components/feature-video.vue"
+  },
+  "LazyFeatureVideo": {
+    "description": "Auto imported from components/feature-video.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/footer.vue"
+  },
+  "LazyFooter": {
+    "description": "Auto imported from components/footer.vue"
+  },
+  "Greenwall": {
+    "description": "Auto imported from components/greenwall.vue"
+  },
+  "LazyGreenwall": {
+    "description": "Auto imported from components/greenwall.vue"
+  },
+  "MenuBar": {
+    "description": "Auto imported from components/menu-bar.vue"
+  },
+  "LazyMenuBar": {
+    "description": "Auto imported from components/menu-bar.vue"
+  },
+  "Pageheader": {
+    "description": "Auto imported from components/pageheader.vue"
+  },
+  "LazyPageheader": {
+    "description": "Auto imported from components/pageheader.vue"
+  },
+  "Players": {
+    "description": "Auto imported from components/players.vue"
+  },
+  "LazyPlayers": {
+    "description": "Auto imported from components/players.vue"
+  },
+  "ShopTiles": {
+    "description": "Auto imported from components/shop-tiles.vue"
+  },
+  "LazyShopTiles": {
+    "description": "Auto imported from components/shop-tiles.vue"
+  },
+  "Socialblock": {
+    "description": "Auto imported from components/socialblock.vue"
+  },
+  "LazySocialblock": {
+    "description": "Auto imported from components/socialblock.vue"
+  },
+  "Sponsors": {
+    "description": "Auto imported from components/sponsors.vue"
+  },
+  "LazySponsors": {
+    "description": "Auto imported from components/sponsors.vue"
+  },
+  "Teamsummertime": {
+    "description": "Auto imported from components/teamsummertime.vue"
+  },
+  "LazyTeamsummertime": {
+    "description": "Auto imported from components/teamsummertime.vue"
+  },
+  "TitleBar": {
+    "description": "Auto imported from components/title-bar.vue"
+  },
+  "LazyTitleBar": {
+    "description": "Auto imported from components/title-bar.vue"
+  },
+  "Tstshop": {
+    "description": "Auto imported from components/tstshop.vue"
+  },
+  "LazyTstshop": {
+    "description": "Auto imported from components/tstshop.vue"
+  }
+}
