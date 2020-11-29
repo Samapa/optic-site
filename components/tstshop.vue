@@ -95,7 +95,7 @@ export default {
 .optic-supply img {
   border-radius: 50%;
   width: 150px;
-  height: auto;
+  height: 150px;
 }
 
 .shop-tile {
