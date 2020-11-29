@@ -366,7 +366,7 @@ export default {
 
 <style scoped>
 
-  @media only screen and (max-width: 482px) { 
+@media only screen and (max-width: 420px) {
   #desktop-nav {
     display: none;
   }
@@ -519,4 +519,61 @@ export default {
     fill: var(--optic-green);
   }
 }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+#desktop-nav {
+    display: none;
+  }
+
+  .optic-socials {
+    display: flex;
+    border-top: solid 1px var(--optic-green);
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+  #mobile-nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: var(--primary);
+    width: 100%;
+    height: 35vh;
+    margin-top: 50px;
+    z-index: 1;
+    list-style: none;
+    text-transform: uppercase;
+    transition: ease-in 0.6s;
+  }
+
+  #mobile-nav a {
+    padding-top: 20px;
+  }
+
+  .mobile-nav {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary);
+    border-bottom: solid 2px var(--optic-green);
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+  }
+
+  .mobile-nav svg {
+    fill: var(--invert);
+    width: 40px;
+    height: 100%;
+    align-self: center;
+  }
+
+    .hidden {
+  transform: translateY(-500px);
+  transition: ease-in 0.6s;
+}
+}
+
 </style>

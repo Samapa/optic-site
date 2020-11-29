@@ -59,7 +59,7 @@ export default {
 </script>
 
 <style scoped>
-  @media only screen and (max-width: 482px) { 
+@media only screen and (max-width: 420px) {
 
 .slide-container {
     display: flex;
@@ -266,5 +266,104 @@ export default {
     }
 }
 
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  .slide-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: baseline;
+    color: var(--primary);
+    position: absolute;
+    align-self: center;
+    bottom: 40px;
+    
+
+  }
+
+  .slide-container a {
+      color: var(--primary);
+      text-transform: uppercase;
+      font-weight: bold;
+      background-color: var(--optic-green);
+      padding: 5px 25px;
+      margin: 10px 0;
+      border: solid 0px;
+      text-decoration: none;
+      transition: ease 0.5s;
+      
+  }
+
+  .slide-container a:hover {
+      color: var(--optic-green);
+      background-color: var(--primary);
+      transition: ease 0.5s;
+  }
+
+  .slide-container h2 {
+      color: var(--primary);
+  }
+
+  .slide-container h3 {
+      color: var(--primary);
+      text-transform: uppercase;
+      
+  }
+
+  .slider > img {
+      height: 500px;
+      width: 100%;
+      position: absolute;
+      z-index: -1;
+      object-fit: cover;
+      filter: brightness(0.5);
+  }
+
+  .wrapper {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    align-self: center;
+    
+}
+
+.wrapper div {
+    width: 100%;
+    margin: 0 7px;
+    align-self: flex-end;
+    transition: ease 0.2s;
+    box-shadow: inset 0px 2px var(--primary);
+    padding-top: 15px;
+    transition: all 0.2s ease;
+}
+
+.wrapper div.selected {
+    box-shadow: inset 0px 4px var(--optic-green);
+    transition: all 0.2s ease;
+}
+
+.wrapper p {
+    font-size: 0px;
+}
+
+  .slider {
+      position: relative;
+    width: 100%;
+    height: 500px;
+  }
+
+.fade {
+    animation: fade 2s ease;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
 }
 </style>

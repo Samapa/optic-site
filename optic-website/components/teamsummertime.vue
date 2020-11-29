@@ -144,7 +144,7 @@ export default {
   align-self: center;
 }
 
-    @media only screen and (max-width: 482px) {  
+    @media only screen and (max-width: 1024px) {  
 
     .optic-tst  {
       flex-direction: column;

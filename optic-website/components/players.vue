@@ -117,7 +117,7 @@ export default {
   align-self: center;
 }
 
-    @media only screen and (max-width: 482px) {  
+    @media only screen and (max-width: 1024px) {  
 
     .optic-players  {
       flex-direction: column;

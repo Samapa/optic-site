@@ -82,7 +82,7 @@
   color: var(--optic-green);
 }
 
-@media only screen and (max-width: 420px) { 
+  @media only screen and (max-width: 1024px) { 
   .optic-footer .ul{
     flex-direction: column;
     text-align: center;
